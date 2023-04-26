@@ -86,7 +86,7 @@
 }
 .services-item {
 	padding: 40px 35px 40px;
-	min-height: 268px;
+	max-height: 280px;
 }
 .project-thumb img {
 	width: 470px;
@@ -428,7 +428,7 @@
 }
 .services-item {
 	padding: 30px 20px 30px;
-	min-height: 258px;
+	min-height: 275px;
 }
 .project-content .title {
 	font-size: 22px;

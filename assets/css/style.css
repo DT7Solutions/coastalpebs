@@ -5612,3 +5612,17 @@ label {
         transform: scale(1,0);
     }
 }
+.services-item-about::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	z-index: -1;
+	/* background: linear-gradient(100.16deg, #FE5D14 1.96%, rgba(28, 28, 28, 0) 198.08%); */
+	opacity: 0;
+	transition: .3s linear;
+  }
+ 
