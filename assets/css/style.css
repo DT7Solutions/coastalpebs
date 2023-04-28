@@ -5146,7 +5146,7 @@ label {
 /* top section */
 .contact-info-wrap-top {
 	background: var(--tg-gray);
-	padding: 60px 65px;
+	padding: 40px 40px;
 	border-radius: 5px;
 	margin-bottom: 25px;
 }
