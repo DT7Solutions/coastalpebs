@@ -7842,7 +7842,21 @@ h2 {
 }
 
 
+.imgradius img{
+	border-radius:10px;
+	margin-top:5px;;
+}
+.imgrow{
+	position:relative;
+}
+ .imgbox{
+	position:absolute;
+	top:130px;
+	left:20px;
+	
+	
+ }
+ .imgbox:hover {
+	background-color:teal !important;
 
-
-
- 
+ }
