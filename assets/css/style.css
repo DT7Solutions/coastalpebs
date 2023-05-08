@@ -7857,6 +7857,23 @@ h2 {
 	
  }
  .imgbox:hover {
-	background-color:teal !important;
+	background-color:orangered !important;
 
  }
+ /* .item .img1{background-image:url("./assets/img/home/coastalpebs-solutions-home-top-banner-image.png");
+    height:160px;
+    width:108px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+}
+.item .img2{background-image:url("ee.jpeg");
+    height:1680px;
+    width:108px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+} */

@@ -1,0 +1,37 @@
+.icon-box-5 {
+    margin-bottom: 55px;
+  }
+  
+  .icon-box-5 .icon {
+    width: 50px;
+    height: 50px;
+    background:orangered;
+    display: table;
+    text-align: center;
+    float: left;
+  }
+  
+  .icon-box-5 .icon a {
+    display: table-cell;
+    vertical-align: middle;
+    color:white;
+    font-size: 26px;
+  }
+  
+  .icon-box-5 .content {
+    margin-left: 50px;
+    padding-left: 20px;
+  }
+  
+  .icon-box-5 .content .title {
+    margin: 0 0 15px;
+  }
+  
+  .icon-box-5 .content .title a {
+    font-size: 20px;
+    color:#333333;
+    font-weight: 700;
+  }
+  .icon-box-5 .content p {
+    margin: 0;
+}  
