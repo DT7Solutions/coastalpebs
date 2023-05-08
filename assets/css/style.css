@@ -4060,6 +4060,16 @@ label {
 .testimonial-img {
 	margin-right: 71px;
 }
+
+.t-img {
+	margin-right: 1px !important;
+}
+
+.t-img img {
+	border-radius: 5px !important;
+}
+
+
 .testimonial-img img {
 	border-radius: 10px;
 }
@@ -5691,19 +5701,70 @@ label {
 		padding-bottom: 80px;
 		
 	}
+	.com-bot {
+		padding-bottom: 80px;
 	}
 
-	@media screen and (min-width: 320px) and (max-width: 991px){
-		.sec-1{
-			order: 2 !important;
-		
-		   
-		}
-		.sec-2{
-			order: 1 !important;
-		   
-		}
+	.man-fac {
+		padding-top: 0px !important;
+		padding-bottom: 200px;
+		/* border: 2px solid white; */
+	}
+
+	.man-fac-i {
+		background-color: red;
+		padding-top: 20px;
+		/* margin-left: -20px; */
+		/* margin-right: -50px; */
+		/* padding-left: -50px;
+		padding-right: -50px; */
+	}
+
+	.sec-pad {
+		padding-top: 60px;
+	}
+
 }
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+	.sec-1{
+		order: 2 !important;
+	
+	   
+	}
+	.sec-2{
+		order: 1 !important;
+	   
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6086,6 +6147,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%
+
 }
 
 .tab-text h2 {
@@ -7860,20 +7922,38 @@ h2 {
 	background-color:orangered !important;
 
  }
- /* .item .img1{background-image:url("./assets/img/home/coastalpebs-solutions-home-top-banner-image.png");
-    height:160px;
-    width:108px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
-   
+
+
+
+ 
+.bgimg-1 {
+    background-image: url(../img/services/accessories/coastal-peb.jpg) !important;
+    min-height: 500px;
 }
-.item .img2{background-image:url("ee.jpeg");
-    height:1680px;
-    width:108px;
+
+
+ .bgimg-1 {
+    position: relative;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-   
-} */
+	/* background-color: #011627; */
+	/* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+}
+
+.pink-overlay:before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    top: 0px;
+    
+}
+
+
+ 
