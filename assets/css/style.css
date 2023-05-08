@@ -3815,7 +3815,8 @@ label {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	min-height: 700px;
+	min-height: 0px;
+	/* min-height: 700px; */
 	border-radius: 16px;
 	border: 8px solid var(--tg-white);
 	filter: drop-shadow(0px 16px 88px rgba(0, 0, 0, 0.08));
@@ -7953,6 +7954,11 @@ h2 {
     opacity: 0.5;
     top: 0px;
     
+}
+
+
+.work-content h2 {
+	text-align: left;
 }
 
 
