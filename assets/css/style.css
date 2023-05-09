@@ -7920,8 +7920,9 @@ h2 {
 	
  }
  .imgbox:hover {
-	background-color: #0295DA !important;
-
+	
+	transform:scale(1.2);
+	
  }
 
 
