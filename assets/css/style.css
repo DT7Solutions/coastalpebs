@@ -7962,4 +7962,10 @@ h2 {
 }
 
 
- 
+ .testimonial-content p{
+	font-size: 18px;
+ }
+
+ .reviews-stars i {
+    color: yellow;
+}
