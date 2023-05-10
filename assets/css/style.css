@@ -1553,6 +1553,7 @@ label {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+	min-height: 320px !important;
 }
 .features-content .title {
 	font-weight: 600;
@@ -7888,7 +7889,7 @@ html {box-sizing: border-box;}
 }
 
 h2 {
-  text-align:center;
+  /* text-align:center; */
   /* padding-bottom: 1em; */
 }
 
@@ -8058,4 +8059,12 @@ h2 {
 		padding-top: 70px !important;
 		padding-bottom: 20px !important;
 	}
+   }
+
+   .breadcrumb-content h2 {
+	text-align: left;
+   }
+
+   .footer-instagram ul li:hover {
+	transform: scale(1.2);
    }
