@@ -84,6 +84,6 @@ function mailto () {
     }).then(
       alert("sucessfully sending email!")
     );
-    
+ 
   }
       
