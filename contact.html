@@ -153,6 +153,7 @@
                 </div>
             </div>
             <!-- contact-area -->
+           
             <section class="contact-area" style="padding-top: 70px; padding-bottom: 90px;">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -160,36 +161,36 @@
                             <div class="contact-form-wrap" data-background="assets/img/images/contact_form_bg.jpg">
                                 <h2 class="title">Contact Us</h2>
                                 <p>Contact us online through chat or visit us or give us a call and get support from our experts.</p>
-                                <form action="#" class="contact-form">
+                                <form action="#" class="contact-form" name="myform">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
-                                                <input id="firstName" type="text" placeholder="First Name*">
+                                                <input id="firstName"name="firstName" type="text" placeholder="First Name*"required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
-                                                <input id="lastName" type="text" placeholder="Last Name*">
+                                                <input id="lastName" name="lastName"type="text" placeholder="Last Name*"required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
-                                                <input id="email" type="email" placeholder="Email Address*">
+                                                <input id="email"name="email" type="email" placeholder="Email Address*"required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
-                                                <input id="phone" type="text" placeholder="Phone Number*">
+                                                <input id="phone"name="phone" type="text" placeholder="Phone Number*"required pattern="[6-1]{1}-[0-9]{9}">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-grp">
-                                        <input id="subject" type="text" placeholder="Subject">
+                                        <input id="subject" name="subject" type="text" placeholder="Subject"required>
                                     </div>
                                     <div class="form-grp">
-                                        <textarea id="message" placeholder="Your Message here"></textarea>
+                                        <textarea id="message" name="message"placeholder="Your Message here"required></textarea>
                                     </div>
-                                    <button class="btn" type="submit">Send Message</button>
+                                    <button class="btn" type="submit"onclick=" mailto()">Send Message</button>
                                 </form>
                             </div>
                         </div>
@@ -400,5 +401,7 @@
         <script src="assets/js/tg-cursor.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="./assets/js/style.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </body>
 </html>
