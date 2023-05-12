@@ -51,7 +51,7 @@
 :root {
     --tg-body-font-family: 'DM Sans', sans-serif;
     --tg-heading-font-family: 'Poppins', sans-serif;
-    --tg-primary-color: #FE5D14;
+    --tg-primary-color: #008bd0;
     --tg-secondary-color: #131944;
     --tg-body-font-color: #61657E;
     --tg-heading-font-color: #1C1C1C;
@@ -393,7 +393,7 @@ label {
 	height: auto;
 }
 .logo img {
-	max-width: 159px;
+	max-width: 250px;
 }
 .sticky-menu .logo.d-none {
 	display: block !important;
@@ -8068,3 +8068,30 @@ h2 {
    .footer-instagram ul li:hover {
 	transform: scale(1.2);
    }
+
+
+   @media (max-width: 1199.98px) {
+	.banner-shape {
+		width: 25.29% !important;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1500px) {
+.banner-shape {
+    width: 22.29% !important;
+    height: 100%;
+}
+}
+
+@media (max-width: 767.98px) {
+.banner-shape {
+    width: 45% !important;
+}
+}
+
+@media (max-width: 991.98px) {
+.banner-shape {
+    width: 30% !important;
+}
+}
