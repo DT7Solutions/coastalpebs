@@ -846,7 +846,7 @@
 }
 .banner-content {
 	width: 100%;
-	text-align: center;
+	/* text-align: center; */
 }
 .banner-content .title {
 	font-size: 42px;
