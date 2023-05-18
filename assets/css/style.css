@@ -1592,7 +1592,7 @@ label {
 	height: 155px;
 	border-radius: 50%;
 	font-size: 40px;
-	background: var(--tg-unbleached-silk);
+	background: var(--tg-primary-color);
 	color: var(--tg-primary-color);
 	position: absolute;
 	bottom: -50px;
@@ -1622,6 +1622,7 @@ label {
 .features-item-inner:hover .features-icon img {
 	filter: brightness(0) invert(1);
 }
+
 
 /* features-two */
 .features-bg {
@@ -2049,7 +2050,7 @@ label {
 	height: 100%;
 	border-radius: 5px;
 	z-index: -1;
-	background: linear-gradient(100.16deg, #FE5D14 1.96%, rgba(28, 28, 28, 0) 198.08%);
+	background:linear-gradient(100.16deg, #008bd0 1.96%, rgba(28, 28, 28, 0) 198.08%);
 	opacity: 0;
 	transition: .3s linear;
 }
@@ -3944,7 +3945,7 @@ label {
 .history-list .list-wrap li {
 	display: flex;
 	align-items: center;
-	font-size: 18px;
+	font-size: 16px;
 	color: var(--tg-heading-font-color);
 	font-family: var(--tg-heading-font-family);
 	margin-bottom: 10px;
@@ -5641,7 +5642,7 @@ label {
   
   .adv ul {
 	list-style: none;
-	font-size: 18px;
+	font-size: 16px;
 	/* padding: 50px; */
   }
 
