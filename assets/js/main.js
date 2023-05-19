@@ -529,7 +529,7 @@ $('.project-active-two').slick({
 	dots: true,
 	infinite: true,
 	speed: 1000,
-	autoplay: false,
+	autoplay: true,
 	arrows: false,
 	slidesToShow: 3,
 	slidesToScroll: 1,

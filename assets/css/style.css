@@ -2085,7 +2085,7 @@ label {
 	position: absolute;
 	right: 8px;
 	top: 10px;
-	background: linear-gradient(180deg, rgba(254, 93, 20, 0.14) 0%, rgba(254, 93, 20, 0) 100%);
+	background: linear-gradient(180deg, rgba(240, 124, 0, 0.3) 0%, rgba(240, 124, 0, 0) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;

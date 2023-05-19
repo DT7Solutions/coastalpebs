@@ -76,7 +76,7 @@ function mailto () {
         Host : "smtp.elasticemail.com",
         Username : "coastalpeb.website@gmail.com",
         Password : "25B88F742CFF4D6C7DF7A0D4AE9F2B6FE761",
-        To : 'info@coastalpebs.com',
+        To : 'manideep723@gmail.com',
         From : "coastalpeb.website@gmail.com",
         Subject : Subject,
         Body : "Name:" + name + "<br/> snamed:" + sname + "<br/> For email:" + x + "<br/> Subject:" + Subject + "<br/> Message:"
