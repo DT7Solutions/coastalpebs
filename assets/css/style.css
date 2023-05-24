@@ -4325,8 +4325,8 @@ label {
 	font-size: 18px;
 	padding: 22px 25px;
 	font-family: var(--tg-heading-font-family);
-	color: var(--tg-heading-font-color);
-	background: var(--tg-white);
+	color: var(--tg-white);
+	background: var(--tg-primary-color);
 	border-bottom: 1px solid transparent;
 	position: relative;
 }
@@ -4342,7 +4342,7 @@ label {
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	color: var(--tg-heading-font-color);
+	color: var(--tg-white);
 }
 .faq-wrap .accordion-button:not(.collapsed)::after {
 	background-image: none;
@@ -4350,8 +4350,8 @@ label {
 	transform: rotate(0);
 }
 .faq-wrap .accordion-button:not(.collapsed) {
-	color: var(--tg-primary-color);
-	background-color: var(--tg-white);
+	color: var(--tg-white);
+	background-color: var(--tg-primary-color);
 	box-shadow: none;
 	border-bottom: 1px solid #E7E7E7;
 }
@@ -8095,7 +8095,7 @@ h2 {
 	}
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1900px) {
 .banner-shape {
     width: 22.29% !important;
     height: 100%;
