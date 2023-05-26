@@ -8216,8 +8216,8 @@ body {
 
 #contain-button {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  bottom: 10%;
+  left: 37%;
   transform: translateX(-50%);
 }
 
