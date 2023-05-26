@@ -1473,7 +1473,7 @@ label {
 	cursor: pointer;
 	transition: .3s ease-in-out;
 	max-height: 47px;
-	filter: grayscale(100%);
+	/* filter: grayscale(100%); */
 }
 .brand-item img:hover {
 	filter: grayscale(0);
