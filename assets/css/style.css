@@ -300,9 +300,9 @@ label {
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 1;
+	line-height: 0.5;
 	margin-bottom: 0;
-	padding: 20px 31px;
+	padding: 20px 20px;
 	text-align: center;
 	text-transform: none;
 	touch-action: manipulation;
@@ -315,12 +315,12 @@ label {
 	overflow: hidden;
 	z-index: 1;
 }
-.btn::after {
+/* .btn::after {
 	content: "\f061";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 700;
 	margin-left: 15px;
-}
+} */
 .btn::before {
 	content: "";
 	position: absolute;
