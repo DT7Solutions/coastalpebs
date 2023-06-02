@@ -667,7 +667,7 @@ label {
 	color: var(--tg-primary-color);
 }
 .menu-area-three .navbar-wrap ul {
-    margin: 0 0 0 80px;
+    margin: 0 0 0 40px;
 }
 
 /* header-four */
@@ -2198,7 +2198,7 @@ label {
 /* services-three */
 .services-area-three {
 	position: relative;
-	padding: 115px 0 120px;
+	padding: 0px 0 50px;
 }
 .services-area-three .services-bg {
 	position: absolute;
