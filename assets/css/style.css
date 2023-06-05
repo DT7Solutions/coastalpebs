@@ -1513,7 +1513,9 @@ label {
 
 /* inner-brand-area */
 .inner-brand-area .brand-item {
-	height: 140px;
+	/* height: 140px; */
+	width:100%;
+	height:100%;
 	background: var(--tg-gray);
 	border-radius: 10px;
 	cursor: pointer;
