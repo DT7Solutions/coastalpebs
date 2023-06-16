@@ -1741,7 +1741,7 @@ label {
 .features-area-three.features-bg-two {
 	background-size: cover;
 	background-position: center;
-	padding: 0 0 90px;
+	padding: 0 0 50px;
 }
 .features-item-wrap {
 	margin-top: -138px;
@@ -2940,10 +2940,11 @@ label {
 }
 .project-details-content .list-wrap {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	
 	flex-wrap: wrap;
 	gap: 10px 0;
-	width: 90%;
+	width: 100%;
 }
 .project-details-content .list-wrap li {
 	display: flex;
@@ -8110,11 +8111,11 @@ h2 {
 }
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
 .banner-shape {
     width: 30% !important;
 }
-}
+} */
 
 
 
