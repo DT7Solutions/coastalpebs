@@ -5220,14 +5220,14 @@ label {
 }
 .contact-info-item .content a {
 	display: block;
-	color: var(--tg-heading-font-color);
+	color: var(--tg-paragraph-color);
 }
 .contact-info-item .content a:hover {
 	color: var(--tg-primary-color);
 }
 .contact-info-item .content p {
 	margin-bottom: 0;
-	color: var(--tg-heading-font-color);
+	color: var(--tg-paragraph-color);
 }
 #contact-map {
 	height: 343px;
