@@ -1832,7 +1832,7 @@
 	text-align: center;
 }
 .contact-info-wrap .list-wrap {
-	justify-content: center;
+	/* justify-content: center; */
 }
 .contact-info-item .icon {
 	margin: 0 auto 15px;
