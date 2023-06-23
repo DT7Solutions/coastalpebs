@@ -8269,3 +8269,11 @@ body {
 		bottom: 1%!important;
 	}
 }
+.contact-info-item{
+	display:flex!important;
+	
+	
+	gap: 50px!important;
+	
+	
+}
