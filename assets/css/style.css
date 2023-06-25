@@ -8269,11 +8269,17 @@ body {
 		bottom: 1%!important;
 	}
 }
+
+
+
+@media (min-width: 576px) {
 .contact-info-item{
 	display:flex!important;
 	
 	
-	gap: 50px!important;
+	
+	gap: 20px!important;
 	
 	
+}
 }
