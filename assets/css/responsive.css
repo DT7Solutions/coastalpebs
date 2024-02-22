@@ -107,10 +107,10 @@
 	margin-left: 0;
 }
 .footer-top .row [class*="col-"]:nth-child(4) .footer-widget {
-	margin-left: 0;
+	/* margin-left: 0; */
 }
 .footer-top .row [class*="col-"]:nth-child(2) .footer-widget {
-	margin-left: 60px;
+	/* margin-left: 60px; */
 }
 .footer-contact {
 	margin: 0;
@@ -1275,6 +1275,7 @@
 }
 .banner-content .title {
 	font-size: 38px;
+	max-width: 100%;
 }
 .brand-inner {
 	margin-left: 134px;
