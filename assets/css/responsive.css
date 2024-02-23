@@ -79,10 +79,10 @@
 	height: 150px;
 }
 .experiences-item {
-	left: 30px;
+	/* left: 30px; */
 }
 .experiences-item:nth-child(2) {
-	left: 140px;
+	/* left: 140px; */
 }
 .services-item {
 	padding: 40px 35px 40px;
@@ -194,7 +194,7 @@
 }
 .faq-img-wrap img:nth-child(2),
 .faq-img-wrap img:nth-child(1) {
-	width: 300px;
+	/* width: 300px; */
 }
 .banner-content-two .title {
 	font-size: 56px;
@@ -390,7 +390,7 @@
 	width: 170px;
 	object-fit: cover;
 }
-.experiences-item:nth-child(2) {
+/* .experiences-item:nth-child(2) {
 	display: none;
 }
 .experiences-item {
@@ -400,6 +400,11 @@
 	width: 310px;
 	left: 0;
 	bottom: 30px;
+} */
+.experiences-item {
+	width: 310px;
+	left: 200px;
+	bottom: 450px;
 }
 .experiences-item .content .title {
 	font-size: 16px;
@@ -1127,7 +1132,8 @@
 	top: -38px;
 }
 .fetures-content-three {
-	padding: 27px 0px 0;
+	/* padding: 27px 0px 0; */
+	padding: 50px 30px 10px !important;
 }
 .services-thumb-three {
 	padding-left: 0;
@@ -1365,7 +1371,7 @@
 	padding: 95px 0 70px;
 }
 .footer-top {
-	padding: 95px 0 100px;
+	/* padding: 95px 0 100px; */
 }
 .footer-top .row [class*="col-"]:nth-child(2) .footer-widget {
 	margin-left: 0;
@@ -1386,7 +1392,7 @@
 	margin: 0 auto 15px;
 }
 .footer-social {
-    justify-content: center;
+    /* justify-content: center; */
 }
 .footer-social .title {
 	margin-right: 0;
@@ -1692,10 +1698,10 @@
 }
 .footer-social {
 	display: block;
-	text-align: center;
+	/* text-align: center; */
 }
 .footer-social .list-wrap {
-	justify-content: center;
+	/* justify-content: center; */
 }
 .engineer-area {
 	padding: 95px 0 100px;
