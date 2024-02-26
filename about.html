@@ -51,47 +51,54 @@
 
         <!-- header-area -->
         <header>
-            <div id="sticky-header" class="menu-area menu-area-three">
+            <div id="sticky-header" class="menu-area transparent-header sticky-menu">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
-                                    <div class="logo different-logo">
+                                    <!-- <div class="logo different-logo">
                                         <a href="./"><img src="assets/img/logo/coastal-pebs-header-logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="logo d-none">
                                         <a href="./"><img src="assets/img/logo/coastal-pebs-header-logo.png" alt="Logo"></a>
+                                    </div> -->
+                                    <div class="logo different-logo">
+                                        <a href="./"><img src="assets/img/logo/coastal-pebs-footer-logo.png" alt="Logo"></a>
+                                    </div>
+                                    <div class="logo d-none">
+                                        <a href="./"><img src="assets/img/logo/coastal-pebs-footer-logo---1.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li><a  href="./">Home</a></li>
-                                            <li><a class="active" href="about.html">About us</a></li>
+                                            <!-- <li><a class="active" href="./">Home</a></li> -->
+                                            <li><a class="active" href="./about">About us</a></li>
                                             <li class="menu-item-has-children"><a href="#">Products & Services</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item-has-children"><a href="pre-engineered-building.html">Pre Engineered building</a>
+                                                    <li class="menu-item-has-children"><a href="./pre-engineered-building">Pre Engineered building</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="about-peb.html">About PEB</a></li>
-                                                            <li><a href="primary-framing.html">Primary framing</a></li>
-                                                            <li><a href="secondary-framing.html">Secondary framing</a></li>
+                                                            <li><a href="./about-peb">About PEB</a></li>
+                                                            <li><a href="./primary-framing">Primary framing</a></li>
+                                                            <li><a href="./secondary-framing">Secondary framing</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="structured-steel.html">Structural Steel</a></li>
-                                                    <li><a href="solor-structure.html">Solar Structure</a></li>
-                                                    <li><a href="seed-dryers-&-conveyer-systems.html">Seed Dryers & Conveyer systems</a></li>
-                                                    <li><a href="building-components.html">Building Components</a></li>
+                                                    <li><a href="./structured-steel">Structural Steel</a></li>
+                                                    <li><a href="./solor-structure">Solar Structure</a></li>
+                                                    <li><a href="./seed-dryers-&-conveyer-systems">Seed Dryers & Conveyer systems</a></li>
+                                                    <li><a href="./building-components">Building Components</a></li>
                                                     <li><a href="./civilworks">Civil Works</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="manufacturing.html">Manufacturing</a></li>
                                             <li><a href="./projects">Projects</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <!-- <li><a href="contact.html">Contact</a></li> -->
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">
                                         <ul class="list-wrap">
-                                            <li class="header-btn"><a href="coastal-pebs-brochure.pdf" download target="_blank" class="btn">Brochure</a></li>
+                                            <li class="header-btn"><a href="coastal-pebs-brochure.pdf" download target="_blank" class="btn-2">Brochure</a></li>
+                                            <li class="header-btn"><a href="contact.html" class="btn-1">Contact Us <i class="fa fa-phone-alt"></i></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -154,11 +161,12 @@
             <!-- breadcrumb-area-end -->
 
             <!-- about-area -->
-            <section class="about-area inner-about-area " style="padding-top: 80px; padding-bottom: 80px;">
+            <section class="about-area inner-about-area " style="padding-top: 100px; padding-bottom: 70px; background-color: rgba(0, 139, 208, 1);">
                 <div class="container str-para">
                     <div class="row str-para">
-                        <div class="col-xl-7 col-lg-6 order-0 order-lg-2">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="about-img-wrap">
+                                <img src="./assets/img/home/coastalpebs-homepage-about-us-634x508.png" alt="" class="wow fadeInRight" data-wow-delay=".4s">
                                 <img src="./assets/img/home/coastalpebs-homepage-about-us-634x508.png" alt="" class="wow fadeInRight" data-wow-delay=".4s">
                                 
                                 <div class="about-experiences-wrap">
@@ -181,7 +189,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-lg-6">
+                        <div class="col-xl-5 col-lg-6 order-0 order-lg-2" >
                             <div class="about-content">
                                 <div class="section-title mb-25">
                                     <span class="sub-title">About Our Company</span>
@@ -189,14 +197,19 @@
                                 </div>
                                
 
-                             <P style="text-align: justify;">Coastal PEB Solutions is a leading provider of pre-engineered building solutions in India. We offer 
+                             <P style="text-align: justify;">
+                                Coastal PEB Solutions is a leading provider of pre-engineered building solutions in India. We offer 
                                 various services, including design, engineering, fabrication, and installation of PEBs and other 
                                 building solutionsCoastal PEB Solutions, founded by childhood friends Mr. Shiva Shankar Rao and Mr. Ramesh, has 
                                 an inspiring journey that traces back to 1983 when they established the company under the 
-                                name Coastal Engineering Works. Drawing inspiration from Shiva Shankar Rao's father's welding 
+                                name Coastal Engineering Works. 
+                            </P>
+                            <p>
+                                Drawing inspiration from Shiva Shankar Rao's father's welding 
                                 shop during 1960’s, they initially crafted PEBS through manual construction methods. Over time, 
                                 their dedication and innovation led them to automate their processes, progressively embracing 
-                                full automation.</P>
+                                full automation.
+                            </P>
                                     
                                  
                                 <div class="about-list">
@@ -206,59 +219,145 @@
                         </div>
                     </div>
                 </div>
+                <div class="counter-area" style="background-color:rgba(0, 139, 208, 1);">
+                    <div class="container">
+                        <div class="counter-inner wow fadeInUp" data-wow-delay=".2s">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-item">
+                                        <div class="counter-icon">
+                                            <img src="assets/img/icon/counter_icon01.svg" alt="">
+                                        </div>
+                                        <div class="counter-content">
+                                            <span class="count odometer" data-count="500"></span>
+                                            <p>Projects</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-item">
+                                        <div class="counter-icon">
+                                            <img src="assets/img/icon/counter_icon04.svg" alt="">
+                                        </div>
+                                        <div class="counter-content">
+                                            <span class="count odometer" data-count="250"></span>
+                                            <p>Lakh sqft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-item">
+                                        <div class="counter-icon">
+                                            <img src="assets/img/icon/counter_icon02.svg" alt="">
+                                        </div>
+                                        <div class="counter-content">
+                                            <span class="count odometer" data-count="40"></span>
+                                           
+                                            <p>Years of Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-item">
+                                        <div class="counter-icon">
+                                            <img src="assets/img/icon/counter_icon03.svg" alt="">
+                                        </div>
+                                        <div class="counter-content">
+                                            <span class="count odometer" data-count="200"></span>
+                                            <p>Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- about-area-end -->
 
 
-            <section class="faq-area faq-bg" style="background-color: #ffffff;">
+            <!-- about-area -->
+            <section class="about-area about-area-2" style="padding-top: 100px; padding-bottom: 70px; background-color: #f8f8f8;">
+                <div class="container">
+                    <div class="row align-items-center str-para">
+                        <!-- <div class="col-xl-7 col-lg-6 order-0 order-lg-2"> -->
+                        <div class="col-xl-7 col-lg-6 order-0">
+                            <div class="about-img-wrap">
+                                <!-- <img src="./assets/img/home/coastalpebs-homepage-projects-two (1).png" alt="" class="wow fadeInRight" data-wow-delay=".4s"> -->
+                                <img src="./assets/img/home/coastalpebs-homepage-projects-two 1.png" alt="" class="wow fadeInRight" data-wow-delay=".4s">
+                                <img src="./assets/img/home/coastalpebs-homepage-projects-two 1-1.png" alt="" class="wow fadeInRight" data-wow-delay=".2s">
+                                <div class="about-experiences-wrap">
+                                    <div class="experiences-item">
+                                        <div class="icon">
+                                            <img src="assets/img/icon/about_icon01.svg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">We have more than 40 years of experience</h6>
+                                        </div>
+                                    </div>
+                                    <div class="experiences-item">
+                                        <div class="icon">
+                                            <img src="assets/img/icon/about_icon02.svg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">Our team consists of highly professional and experienced individuals.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="about-content">
+                                <div class="section-title mb-25 tg-heading-subheading animation-style3">
+                                    <span class="sub-title tg-element-title">About Coastal PEB</span>
+                                    <h1 class="title tg-element-title">Reliable! Quality! Strength!</h1>
+                                </div>
+                                <p>
+                                    The Pre Engineered Steel Blocks(PEB) industry is a sector within the construction and manufacturing field that specializes in the production, distribution, and utilization of precast steel blocks for various construction applications. It involves the design, fabrication, and supply of pre-engineered steel blocks that offer benefits such as speed, cost-effectiveness, durability, and design flexibility. These blocks are manufactured using high-quality steel and advanced manufacturing processes, ensuring their strength, integrity, and dimensional accuracy.
+                                </p>
+                                <p>
+                                    The industry serves a wide range of construction projects, including residential, commercial, industrial, and infrastructure developments. It plays a crucial role in providing efficient and customizable building solutions, reducing construction timelines and costs while ensuring structural stability and performance.
+                                </p>
+                                <a href="#" class="btn-3">Learn More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about-area-end -->
+
+            <section class="our-mision-vision">
                 <div class="container">
                     <div class="row align-items-center justify-content-center str-para">
                         <div class="col-xl-6 col-lg-10 order-0  order-xl-2">
-                            <div class="faq-wrap">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                               Mission
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p> Coastal PEB Solutions Pvt Ltd keeps dedicated to transforming the PEB industry, setting new 
-                                                    benchmarks, and positively impacting the built environment. We are committed to adding recent 
-                                                    accomplishments to our journey and maintaining our position as a leader in the PEB field while 
-                                                    always prioritising our customers' satisfaction and success.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                    
-                                   
-                                    
+                            <div class="our-mision-vision-item">
+                                <div class="item-img">
+                                    <img src="./assets/img/home/coastalpebs-structured-steel-image.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h1 class="title">Our Mission</h1>
+                                    <p> Coastal PEB Solutions Pvt Ltd keeps dedicated to transforming the PEB industry, setting new 
+                                        benchmarks, and positively impacting the built environment. We are committed to adding recent 
+                                        accomplishments to our journey and maintaining our position as a leader in the PEB field while 
+                                        always prioritising our customers' satisfaction and success.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 ">
-                            <div class="faq-wrap">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                               Vision
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Coastal PEB Solutions Pvt Ltd is a trusted destination for all your PEB (Pre-Engineered Building) structural needs. We are driven by customer satisfaction and fueled by the faith and support of our valued clients. Our vision is to empower businesses, foster lasting relationships, and offer innovative solutions that establish us as a leader in the industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                    
-                                   
-                                    
+                            <div class="our-mision-vision-item">
+                                <div class="item-img">
+                                    <img src="./assets/img/home/coastal-peb-solutions-homepage-seed-dryers-460x286.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h1 class="title">Our Vision</h1>
+                                    <p>
+                                        Coastal PEB Solutions Pvt Ltd is a trusted destination for all your PEB (Pre-Engineered Building) 
+                                        structural needs. We are driven by customer satisfaction and fueled by the faith and support of our
+                                        valued clients. Our vision is to empower businesses, foster lasting relationships, and offer 
+                                        innovative solutions that establish us as a leader in the industry.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -268,122 +367,183 @@
 
 
 
-
-          
-
-
-
-
-            <section class="features-area-three features-bg-two mt-100 pt-5" >
-                <div class="container s">
-                    <div class="features-item-wrap">
-                        <div class="section-title text-center mt-5 mb-5">
-                              
-                            <h1 class="title">Board of directors</h1>
-                        </div>
-                        <div class="row justify-content-center str-para">
-                            <!-- <div class="col-xl-4 col-md-6">
-                                <div class="fetures-item-three wow fadeInUp" data-wow-delay=".2s">
-                                    <div class="fetures-thumb-three">
-                                        <a href="services-details.html"><img src="assets/img/images/h4_features_img01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="fetures-content-three">
-                                        
-                                        <h4 class="title"><a >Mr. Ramesh Gadde</a></h4>
-                                        <h6></h6>
-                                        <p style="text-align: justify;">Mr. Ramesh Gadde, with over 40 years of hands-on experience in the steel industry and quality driven approach, had placed COASTAL as a top-tier quality service provider. His Problem-solving skills, anything-is-possible approach, and exemplary customer skills made company customers the No.1 choice. Under his able guidance and leadership, COASTAL is out to realise great heights and new horizons.</p>
-                                    </div>
-                                </div>
+            <section class="about-team" style="display: none;">
+                <div class="container">
+                    <div class="row justify-content-center mt-50 mb-50">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center white-title tg-heading-subheading animation-style3">
+                                <h1 class="title tg-element-title">Board of directors</h1>
                             </div>
-                          
-                            <div class="col-xl-4 col-md-6">
-                                <div class="fetures-item-three wow fadeInUp" data-wow-delay=".2s">
-                                    <div class="fetures-thumb-three">
-                                        <a href="services-details.html"><img src="assets/img/images/h4_features_img01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="fetures-content-three">
-                                        
-                                        <h4 class="title"><a>Mr. Harish Gadde</a></h4>
-                                        <p style="text-align: justify;">Mr. Harish Gadde graduated with a Master's in Structural Engineering from the University of Colorado Boulder. He worked as a structural engineer in Thyssenkrupp Industrial Solutions, handling key underground/above-ground mining and heavy industrial projects worldwide before returning to India. His knowledge of different International Design Codes makes us deliver a safe and economical building. His role will bring new design ideas and unconventional approaches to the monotonous steel buildings approach.</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="col-xl-4 col-md-6">
-                                <div class="fetures-item-three wow fadeInUp" data-wow-delay=".2s">
-                                    <div class="fetures-thumb-three">
-                                        <a href="services-details.html"><img src="assets/img/images/h4_features_img01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="fetures-content-three">
-                                        
-                                        <h4 class="title" ><a >Mr. Ramakanth Vattikuti</a></h4>
-                                        <p>Mr. Ramakanth Vattikuti has 12 years of combined experience in civil and PEB production. His people management skills and production experience make us deliver projects with the highest quality standards on strict deadlines. He plays a key role in the planning and development of the company with core values intact, and the customer is the king approach.</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="guidelines-wrap">
-                                <div class="row mt-5">
-                                    <div class="col-lg-4 col-xl-4">
-                                        <div class="guidelines-img">
-                                            <img src="assets/img/project/h3_project_img01.jpg" alt="">
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="col-lg-8" style="display: flex;flex-direction:column;justify-content: center;">
-                                        <div class="guidelines-content" >
-                                            <h4 class="title mb-3">Mr. Ramesh Gadde</h4>
-                                            <h6 style="font-size: large;font-weight: 500;">Chairman</h6>
-                                            <p style="font-size: 18px;text-align: justify;">Mr. Ramesh Gadde, with over 40 years of hands-on experience in the steel industry and quality driven approach, had placed COASTAL as a top-tier quality service provider. His Problem-solving skills, anything-is-possible approach, and exemplary customer skills made company customers the No.1 choice. Under his able guidance and leadership, COASTAL is out to realise great heights and new horizons.</p>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="row mt-5">  
-                                   
-                                    <div class="col-lg-8  sec-1" style="display: flex;flex-direction:column;justify-content: center;">
-                                        <div class="guidelines-content">
-                                            <h4 class="title mb-3">Mr. Ramakanth Vattikuti</h4>
-                                            <h6 style="font-size: large;font-weight: 500;">Managing Director</h6>
-                                            <p style="font-size: 18px;text-align: justify;">Mr. Ramakanth Vattikuti has 12 years of combined experience in civil and PEB production. His people management skills and production experience make us deliver projects with the highest quality standards on strict deadlines. He plays a key role in the planning and development of the company with core values intact, and the customer is the king approach.</p>
-                                           
-                                        </div>
-                                    </div>
-                                     <div class="col-lg-4">
-                                        <div class="guidelines-img">
-                                            <!-- <img src="assets/img/team/team_details02.jpg" alt=""> -->
-                                            <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="">
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                 <div class="row mt-5">
-                                     <div class="col-lg-4  ">
-                                        <div class="guidelines-img">
-                                            <img src="assets/img/project/h3_project_img01.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-lg-8 " style="display: flex;flex-direction:column;justify-content: center;">
-                                        <div class="guidelines-content">
-                                            <h4 class="title mb-3">Mr. Harish Gadde</h4>
-                                            <h6 style="font-size: large;font-weight: 500;" >Director – Designs and Marketing</h6>
-                                            <p style="font-size: 18px;text-align: justify;">Mr. Harish Gadde graduated with a Master's in Structural Engineering from the University of Colorado Boulder. He worked as a structural engineer in Thyssenkrupp Industrial Solutions, handling key underground/above-ground mining and heavy industrial projects worldwide before returning to India. His knowledge of different International Design Codes makes us deliver a safe and economical building. His role will bring new design ideas and unconventional approaches to the monotonous steel buildings approach.</p>
-                                           
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                                
-                            </div>
-                            
-                            
                         </div>
-                       
+                    </div>
+                    <div class="row align-items-center justify-content-center str-para">
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="" style="height: 540px; width: 480px;">
+                            <div class="team-details">
+                                <h4 class="title"><a >Mr. Ramesh Gadde</a></h4>
+                                <h6 class="sub-title"> Chairman</h6>
+                            </div>
+                            <div class="team-details-content">
+                                <h4 class="title"><a >Mr. Ramesh Gadde</a></h4>
+                                <h6 class="sub-title"> Chairman</h6>
+                                <p style="text-align: justify;">
+                                    Mr. Ramesh Gadde, with over 40 years of hands-on experience in the steel industry and quality driven approach,
+                                    had placed COASTAL as a top-tier quality service provider. His Problem-solving skills, anything-is-possible 
+                                    approach, and exemplary customer skills made company customers the No.1 choice. Under his able guidance and 
+                                    leadership, COASTAL is out to realise great heights and new horizons.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="" style="height: 540px; width: 480px;">
+                            <div class="team-details">
+                                <h4 class="title"><a >Mr. Harish Gadde</a></h4>
+                                <h6 class="sub-title"> Director</h6>
+                            </div>
+                            <div class="team-details-content">
+                                <h4 class="title"><a >Mr. Harish Gadde</a></h4>
+                                <h6 class="sub-title"> Director</h6>
+                                <p style="text-align: justify;">
+                                    Mr. Harish Gadde graduated with a Master's in Structural Engineering from the University of Colorado 
+                                    Boulder. He worked as a structural engineer in Thyssenkrupp Industrial Solutions, handling key 
+                                    underground/above-ground mining and heavy industrial projects worldwide before returning to India. 
+                                    His knowledge of different International Design Codes makes us deliver a safe and economical building. 
+                                    His role will bring new design ideas and unconventional approaches to the monotonous steel buildings 
+                                    approach.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="" style="height: 540px; width: 480px;">
+                            <div class="team-details">
+                                <h4 class="title"><a >Mr. Ramakanth Vattikuti</a></h4>
+                                <h6 class="sub-title"> Manager</h6>
+                            </div>
+                            <div class="team-details-content">
+                                <h4 class="title"><a >Mr. Ramakanth Vattikuti</a></h4>
+                                <h6 class="sub-title"> Manager</h6>
+                                <p style="text-align: justify;">
+                                    Mr. Ramakanth Vattikuti has 12 years of combined experience in civil and PEB production. His people 
+                                    management skills and production experience make us deliver projects with the highest quality standards 
+                                    on strict deadlines. He plays a key role in the planning and development of the company with core values 
+                                    intact, and the customer is the king approach.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <!-- features-area-two -->
 
+            <section class="about-team">
+                <div class="container">
+                    <div class="row justify-content-center mt-50 mb-50">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center white-title tg-heading-subheading animation-style3">
+                                <h1 class="title tg-element-title">Board of directors</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center str-para">
+                         <div class="col-xl-4 col-md-6 col-sm-12 ">
+                            <main class="team-sec">
+                                <div class = "card">
+                                  <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
+                                  <div class="card-content">
+                                    <h2>
+                                      Card Heading
+                                    </h2>
+                                    <p>
+                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+                                    </p>
+                                    <a href="#" class="button">
+                                      Find out more 
+                                      <span class="material-symbols-outlined">
+                                        arrow_right_alt
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </main>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12 ">
+                            <main class="team-sec">
+                                <div class = "card">
+                                  <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
+                                  <div class="card-content">
+                                    <h2>
+                                      Card Heading
+                                    </h2>
+                                    <p>
+                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+                                    </p>
+                                    <a href="#" class="button">
+                                      Find out more 
+                                      <span class="material-symbols-outlined">
+                                        arrow_right_alt
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </main>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12 ">
+                            <main class="team-sec">
+                                <div class = "card">
+                                  <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
+                                  <div class="card-content">
+                                    <h2>
+                                      Card Heading
+                                    </h2>
+                                    <p>
+                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+                                    </p>
+                                    <a href="#" class="button">
+                                      Find out more 
+                                      <span class="material-symbols-outlined">
+                                        arrow_right_alt
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </main>
+                        </div>
+                       <!-- <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="team-details">
+                                <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="" style="height: 540px; width: 480px;">
+                                <h4 class="title"><a>Mr. Harish Gadde</a></h4>
+                                <h6 class="sub-title">Director</h6>
+                                <div class="team-details-content">
+                                    <p style="text-align: justify;">
+                                        Mr. Harish Gadde graduated with a Master's in Structural Engineering from the University of Colorado 
+                                        Boulder. He worked as a structural engineer in Thyssenkrupp Industrial Solutions, handling key 
+                                        underground/above-ground mining and heavy industrial projects worldwide before returning to India. 
+                                        His knowledge of different International Design Codes makes us deliver a safe and economical building. 
+                                        His role will bring new design ideas and unconventional approaches to the monotonous steel buildings 
+                                        approach.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="team-details">
+                                <img src="assets/img/project/Ramakanth-varkuti-managing-directior.png" alt="" style="height: 540px; width: 480px;">
+                                <h4 class="title"><a>Mr. Ramakanth Vattikuti</a></h4>
+                                <h6 class="sub-title">Manager</h6>
+                                <div class="team-details-content">
+                                    <p style="text-align: justify;">
+                                        Mr. Ramakanth Vattikuti has 12 years of combined experience in civil and PEB production. His people 
+                                        management skills and production experience make us deliver projects with the highest quality standards 
+                                        on strict deadlines. He plays a key role in the planning and development of the company with core values 
+                                        intact, and the customer is the king approach.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+            
+        
 
             <section class="blog-details-area pb-5 bg-white pt-5">
                 <div class="container">
@@ -395,13 +555,14 @@
                     <div class="row justify-content-center">
                         
                      
-                     
                         <div class="col-lg-12 col-md-10 order-0 order-lg-2">
-                            <div class="banner-img-wrap d-lg-flex justify-content-lg-center mt-5 mb-5 " style="margin-left: 0px!important;">
-                                <img src="assets/img/about/coastalpebs-aboutpage-390x550.png" class="shadow bg-rounded" alt="">
-                               
+                            <div class="banner-img-wrap d-lg-flex justify-content-lg-center mt-5 mb-5" style="margin-left: 0px!important;">
+                                <div class="image-container">
+                                    <img src="assets/img/about/coastalpebs-aboutpage-390x550.png" class="shadow bg-rounded" alt="">
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </section>
@@ -580,15 +741,65 @@
             <div class="footer-area footer-bg" data-background="assets/img/bg/footer_bg.jpg">
                 <div class="footer-top">
                     <div class="container">
+                        <div class="footer-logo-area">
+                            <div class="row align-items-center">
+                                <div class="col-xl-12 col-lg-12 col-md-12">
+                                    <div class="footer-contact">
+                                        <h1 class="title">CONNECT WITH US</h1>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="footer-contact">
+                                        <div class="icon">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </div>
+                                        <div class="content">
+                                            <span><b>Contact Us</b></span>
+                                            <!-- <a href="tel:+919246483535">+91 924 648 3535</a>
+                                            <a href="tel:+918499899999">+91 849 989 9999</a>
+                                            <a href="tel:+919440652251">+91 944 065 2251</a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="footer-contact">
+                                        <div class="icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="content">
+                                            <span><b>Our Location</b></span>
+                                            <!-- <a href="tel:+919246483535">Guntur</a>
+                                            <a href="tel:+918499899999">Hyderabad</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row str-para">
                             <div class="col-xl-3 col-lg-4 col-md-7">
                                 <div class="footer-widget">
+                                    <div class="logo">
+                                        <a href="./"><img src="assets/img/logo/coastal-pebs-footer-logo.png" alt=""></a>
+                                    </div>
                                     <h2 class="fw-title">About Us</h2>
                                     <div class="footer-content">
-                                        <p style="text-align:justify;">Coastal PEB Solutions is a leading provider of pre-engineered building solutions in India. We offer 
+                                        <p>Coastal PEB Solutions is a leading provider of pre-engineered building solutions in India. We offer 
                                             various services, including design, engineering, fabrication, and installation of PEBs and other 
-                                            building solutions.</p>
+                                            building solutions.
+                                        </p>
+                                        
                                     </div>
+                                </div>
+                                <div class="footer-social">
+                                    <h2 class="title">Follow Us:</h2>
+                                    <ul class="list-wrap">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
@@ -601,6 +812,7 @@
                                             <li><a href="solor-structure.html"><i class="fas fa-angle-double-right"></i>Solar Structure</a></li>
                                             <li><a href="seed-dryers-&-conveyer-systems.html"><i class="fas fa-angle-double-right"></i>Seed Dryers & Conveyer systems</a></li>
                                             <li><a href="building-components.html"><i class="fas fa-angle-double-right"></i>Building Components</a></li>
+                                                                                    <li><a href="coastal-pebs-brochure.pdf" download target="_blank" ><i class="fas fa-angle-double-right"></i>Brochure Download</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -615,7 +827,7 @@
                                             <li><a href="manufacturing.html"><i class="fas fa-angle-double-right"></i>Manufacturing</a></li>
                                             <li><a href="projects.html"><i class="fas fa-angle-double-right"></i>Projects</a></li>
                                             <li><a href="contact.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
-                                            <li><a href="coastal-pebs-brochure.pdf" download target="_blank" ><i class="fas fa-angle-double-right"></i>Brochure Download</a></li>
+                                            <!-- <li><a href="coastal-pebs-brochure.pdf" download target="_blank" ><i class="fas fa-angle-double-right"></i>Brochure Download</a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -643,40 +855,6 @@
                                             <li>
                                                 <a href="#"><img src="assets/img/project/6.png" alt=""></a>
                                             </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-logo-area">
-                            <div class="row align-items-center">
-                                <div class="col-xl-3 col-lg-3 col-md-12">
-                                    <div class="logo">
-                                        <a href="./"><img src="assets/img/logo/coastal-pebs-footer-logo.png" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6">
-                                    <div class="footer-contact">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="content">
-                                            <span><b>Phone No</b></span>
-                                            <a href="tel:+919246483535" style="font-size: 16px; font-weight: 400;">+91 924 648 3535</a>
-                                            <a href="tel:+918499899999" style="font-size: 16px; font-weight: 400;">+91 849 989 9999</a>
-                                            <a href="tel:+919440652251" style="font-size: 16px; font-weight: 400;">+91 944 065 2251</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-5 col-lg-5 col-md-6">
-                                    <div class="footer-social">
-                                        <h2 class="title">Follow Us:</h2>
-                                        <ul class="list-wrap">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/company/coastal-peb/" traget="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
