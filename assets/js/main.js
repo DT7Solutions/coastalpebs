@@ -147,7 +147,8 @@ $('.brand-active').slick({
 	dots: false,
 	infinite: true,
 	speed: 1000,
-	autoplay: true,
+	// autoplay: true,
+	autoplay: false,
 	arrows: false,
 	slidesToShow: 6,
 	slidesToScroll: 2,
@@ -155,7 +156,7 @@ $('.brand-active').slick({
 		{
 			breakpoint: 1400,
 			settings: {
-				slidesToShow: 5,
+				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
 			}
@@ -163,7 +164,7 @@ $('.brand-active').slick({
 		{
 			breakpoint: 1200,
 			settings: {
-				slidesToShow: 4,
+				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
 			}
@@ -178,7 +179,7 @@ $('.brand-active').slick({
 		{
 			breakpoint: 767,
 			settings: {
-				slidesToShow: 2,
+				slidesToShow: 3,
 				slidesToScroll: 1,
 				arrows: false,
 			}
@@ -186,7 +187,7 @@ $('.brand-active').slick({
 		{
 			breakpoint: 575,
 			settings: {
-				slidesToShow: 1,
+				slidesToShow: 3,
 				slidesToScroll: 1,
 				arrows: false,
 			}
@@ -660,18 +661,18 @@ $('.services-item').hover(function () {
 /*=============================================
 	=          project Active               =
 =============================================*/
-$('.project-item').hover(function () {
-	$(this).find('.project-content p').slideToggle(300);
-	return false;
-});
-$('.project-item').hover(function () {
-	$(this).find('.project-content .title').slideToggle(300);
-	return true;
-});
-$('.project-item').hover(function () {
-	$(this).find('.project-thumb').slideToggle(400);
-	return false;
-});
+// $('.project-item').hover(function () {
+// 	$(this).find('.project-content p').slideToggle(300);
+// 	return false;
+// });
+// $('.project-item').hover(function () {
+// 	$(this).find('.project-content .title').slideToggle(300);
+// 	return true;
+// });
+// $('.project-item').hover(function () {
+// 	$(this).find('.project-thumb').slideToggle(400);
+// 	return false;
+// });
 
 
 

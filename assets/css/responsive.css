@@ -561,7 +561,7 @@
 }
 .faq-img-wrap img:nth-child(2),
 .faq-img-wrap img:nth-child(1) {
-	width: 332px;
+	/* width: 332px; */
 }
 .menu-area-three .navbar-wrap ul {
 	margin: 0 0 0 auto;
