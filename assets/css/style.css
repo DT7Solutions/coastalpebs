@@ -1816,7 +1816,7 @@ label {
 	height: 50px;
 	justify-content: center;
 	/* border: 1px solid #000; */
-	padding: 50px;
+	padding: 50px 25px;
 }
 .brand-item img {
 	cursor: pointer;
@@ -1824,6 +1824,7 @@ label {
 	/* max-height: 47px; */
 	/* height: 50px */
 	/* filter: grayscale(100%); */
+	scale: 1.5;
 }
 .brand-item img:hover {
 	filter: grayscale(0);
@@ -2037,25 +2038,25 @@ label {
 .features-item-top {
 	display: flex;
 	align-items: center;
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
 }
 .features-icon-two {
 	width: 78px;
 	height: 78px;
-	flex: 0 0 auto;
+	/* flex: 0 0 auto; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid var(--tg-primary-color);
 	border-radius: 4px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	font-size: 40px;
 	color: var(--tg-primary-color);
 }
 .features-content-two .title {
 	font-weight: 600;
 	font-size: 20px;
-	margin-bottom: 12px;
+	/* margin-bottom: 12px; */
 }
 .features-content-two p {
 	margin-bottom: 0;
@@ -2526,7 +2527,7 @@ label {
 ===============================*/
 .services-area {
 	background: var(--tg-gray);
-	padding: 115px 0 90px;
+	/* padding: 115px 0 90px; */
 }
 .services-item {
 	padding: 50px 45px 50px;
@@ -3206,8 +3207,8 @@ label {
 }
 .project-item {
 	/* max-height: 680px; */
-	/* min-height: 280px; */
-	min-width: 550px;
+	min-height: 550px;
+	/* min-width: 550px; */
 }
 .section-title .title {
 	font-size: 38px;
@@ -5006,6 +5007,7 @@ label {
 	font-size: 18px;
 	margin-bottom: 0;
 	line-height: 1.83;
+	margin: 0px 25px;
 }
 .faq-img-wrap {
 	display: flex;
@@ -6465,6 +6467,11 @@ label {
   .adv ul li:first-child{
 	margin-top: 50px;
 	border-top: 1px solid #C8C8C8;
+  }
+  .adv ul li i,.adv ul li span i{
+	font-size: 10px;
+	color: #696969;
+	margin: 2px 8px;
   }
 
   ol, ul {
@@ -9403,7 +9410,8 @@ body {
   
 
 .work-area .services-process-content {
-	margin-left: 40px;
+	/* margin-left: 40px; */
+	margin: 20px 40px;
 }
 .work-area .services-process-content > .title {
     font-weight: 600;
@@ -9474,7 +9482,14 @@ body {
 .work-area .services-process-item .content p {
 	margin-bottom: 0;
 }
-
+.work-area .outer-boader-1{
+	border-bottom: 1px solid #60b7e1;
+	border-left:  1px solid #60b7e1;
+}
+.work-area .outer-boader-2{
+	border-top: 1px solid #60b7e1;
+	border-right:  1px solid #60b7e1;
+}
 /* .work-area .row .col-lg-6::after {
     content: '';
     position: absolute;
@@ -9529,10 +9544,15 @@ body {
 
 
 /* SERVICES PRODUCTS IN ABOUT */
+.services-products{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px 0px;
+}
 .services-products .features-item-top{
-	top: 90%;
-	right: 10%;
-	left: 10%;
+	top: 85%;
+	right: 5%;
+	left: 5%;
 	position: absolute;
 	background: var(--tg-secondary-color);
 	display: flex;
@@ -9545,11 +9565,393 @@ body {
 }
 .services-products .features-item-top .title{
 	color: var(--tg-white);
-	margin: 5px !important;
 }
 .services-products .features-icon-two{
 	border: 0 !important;
+	margin: 10px !important;
 }
 .services-products .features-item-two{
 	padding: 0px !important;
+}
+.services-products .features-item-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.features-content-two{
+	height: 78px;
+	display: inline-flex;
+	align-items: center;
+	font-size: 26px;
+	color: var(--tg-primary-color);
+}
+
+
+/*  SOLOR STRUCTURES */
+.solor-faq{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.solor-faq img{
+	padding: 10px;
+}
+
+.sol-ser .icon-box{
+	background-color: var(--tg-white);
+	padding: 20px;
+	min-height: 300px;
+}
+.sol-ser .icon{
+	height: 50px;
+	width: 50px;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+.sol-ser .icon a{
+	font-size: 30PX;
+	color: var(--tg-primary-color);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid var(--tg-primary-color);
+}
+
+/*  SEED DRYERS & CONVEYESR SYSTEM */
+.dryers-conveyers .img-frame{
+	padding: 0 !important;
+	margin: 20px 0px;
+}
+.dryers-conveyers img{
+	height: auto !important;
+	width: 100%;
+	margin: 20px 0px;
+}
+
+/*  BUILDING COMPONENTS */
+.com-bot{
+	padding: 20px 0px !important;
+	margin: 0px !important;
+}
+.bg-comp{
+	background: #f2f2f2;
+}
+.com-bot .testimonial-img img {
+	padding: 20px;
+}
+
+/*  CIVIL WORKS */
+.civil .project-details-wrap{
+	margin: 0px 20px !important;
+}
+.civil .project-details-thumb img{
+	width: 100%;
+}
+.civil .widget-title::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 100;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(74.56deg, rgba(165, 26, 244, 0.1) 8.85%, rgba(240, 167, 14, 0.1) 57.29%, rgba(245, 110, 22, 0.1) 100%);
+}
+.civil .widget-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 100%;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #e3e3e3;
+}
+.civil .project-info-list .list-wrap li i,
+.civil .project-contact .list-wrap li i {
+	font-size: 10px;
+	color: #696969;
+	margin: 5px 10px;
+}
+.civil .adv ul {
+	list-style: none;
+	font-size: 16px;
+	/* padding: 50px; */
+}
+.civil .adv ul li{
+	padding: 8px;
+	width: 100%;
+	border-bottom: 1px solid #C8C8C8;
+}
+.civil .adv ul li:first-child{
+	margin-top: 80px;
+	border-top: 1px solid #C8C8C8;
+}
+.civil .team-item-three {
+	margin-bottom: 30px;
+}
+.civil .team-thumb-three {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #C8C8C8;
+}
+.civil .team-thumb-three::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(0, 0, 0, 0.4); */
+	background: rgba(0, 0, 0, 0.1);
+	transition: .3s linear;
+	pointer-events: none;
+	opacity: 0;
+}
+.civil .team-item-three:hover .team-thumb-three::before {
+	opacity: 1;
+}
+.civil .team-social-three .list-wrap {
+	display: flex;
+	flex-direction: column;
+	background: var(--tg-primary-color);
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 18px 8px;
+	border-radius: 0 4px 0 4px;
+	gap: 6px;
+	border: 7px solid var(--tg-white);
+	border-top: none;
+	border-right: none;
+	opacity: 0;
+	transform: translateX(100px);
+	visibility: hidden;
+	transition: .3s linear;
+}
+.civil .team-item-three:hover .team-social-three .list-wrap {
+	opacity: 1;
+	transform: translateX(0);
+	visibility: visible;
+}
+.civil .team-social-three .list-wrap li a {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--tg-white);
+	font-size: 14px;
+	color: var(--tg-paragraph-color);
+	border-radius: 50%;
+}
+.civil .team-social-three .list-wrap li a:hover {
+	color: var(--tg-primary-color);
+}
+.civil .team-content-three {
+	/* box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.18); */
+	box-shadow: 0px 4px 46px#C8C8C8;
+	border-radius: 4px;
+	padding: 25px 25px;
+	text-align: center;
+	background: var(--tg-white);
+	/* background: var(--tg-primary-color); */
+	/* border: 1px solid var(--tg-white); */
+	border: 1px solid #C8C8C8;
+	margin: -50px 35px 0;
+	position: relative;
+	z-index: 1;
+	transition: .3s linear;
+}
+.civil .team-item-three:hover .team-content-three {
+	background: var(--tg-primary-color);
+	/* background-color: var(--tg-white); */
+}
+.civil .team-item-three .team-content-three a:hover {
+	/* color: var(--tg-white); */
+	color: var(--tg-primary-color);
+}
+.civil .team-content-three .title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.civil .team-content-three:hover h2 a{
+	color: #000 !important;
+}
+.civil .team-content-three span {
+	display: block;
+	font-family: var(--tg-heading-font-family);
+	line-height: 1;
+	transition: .3s linear;
+}
+.civil .team-item-three:hover .civil .team-content-three span,
+.civil .team-item-three:hover .civil .team-content-three .title {
+	color: var(--tg-white);
+}
+
+
+
+/* FONTS SIZES UPDATED NEW */
+
+.footer-area .title{
+	font-size: 32px !important;
+	font-weight: 400 !important;
+}
+.footer-area  p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+.footer-area span{
+	font-size: 24px !important;
+	font-weight: 200 !important;	
+}
+
+
+
+/*  PRE ENGG BUILDING */
+.pre-eng  .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.pre-eng  .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.pre-eng  p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  ABOUT PEB */
+.abt-peb .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.abt-peb  .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.abt-peb p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  PRIMARY FRAMMING */
+.pry-fra .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.pry-fra .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.pry-fra p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  SECONDARY FRAMMING */
+.sec-fra .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.sec-fra .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.sec-fra p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  STRUCTURED STEEL */
+.str-stel .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.str-stel .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.str-stel p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  SOLOR STRUCTURES */
+.solor .title{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+}
+.solor .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.solor p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  SEED DRYERS & CONVEYESR SYSTEM */
+.dryers-conveyers .title{
+	font-size: 30px !important;
+	font-weight: 400 !important;
+}
+.dryers-conveyers .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.dryers-conveyers p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  BUILDING COMPONENTS */
+.build-comp .title{
+	font-size: 30px !important;
+	font-weight: 400 !important;
+}
+.build-comp .sub-font{
+	font-size: 26px !important;
+	font-weight: 400 !important;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.build-comp p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+	padding: 10px;
+}
+
+/*  CIVIL WORKS */
+.civil .title{
+	font-size: 30px !important;
+	font-weight: 400 !important;
+}
+.civil .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.civil p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
+}
+
+/*  MANUFACTURING */
+.manufac .title1{
+	font-size: 50px !important;
+	font-weight: 500 !important;
+}
+.manufac .title{
+	font-size: 30px !important;
+	font-weight: 400 !important;
+}
+.manufac .sub-font{
+	font-size: 18px !important;
+	font-weight: 300 !important;
+}
+.manufac p{
+	font-size: 14px !important;
+	font-weight: 200 !important;
 }
