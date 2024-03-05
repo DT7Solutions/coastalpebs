@@ -1849,7 +1849,7 @@
 }
 .contact-info-wrap {
 	padding: 35px 25px;
-	text-align: center;
+	/* text-align: center; */
 }
 .contact-info-wrap .list-wrap {
 	/* justify-content: center; */
