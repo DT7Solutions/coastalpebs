@@ -213,7 +213,9 @@ h6 {
 p {
 	font-size: var(--tg-body-font-size);
 	font-weight: var(--tg-body-font-weight);
-	line-height: var(--tg-body-line-height);
+	/* font-size: 16px !important;
+	font-weight: 200 !important; */
+	line-height: var(--tg-body-line-height) !important;
 	color: var(--tg-paragraph-color);
 	margin-bottom: 15px;
 }
@@ -2225,8 +2227,8 @@ label {
 }
 .fetures-content-three p {
 	color: #fff;
-	font-weight: 300;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 16px;
 	max-width: 500px;
 }
 .fetures-content-three .btn-2 {
@@ -5032,7 +5034,7 @@ label {
 }
 .faq-wrap .accordion-body p {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 0;
 	line-height: 1.83;
 	margin: 0px 25px;
@@ -10080,7 +10082,6 @@ body {
 
 
 
-
 /* FONTS SIZES UPDATED NEW */
 
 .footer-area .title{
@@ -10088,12 +10089,12 @@ body {
 	font-weight: 400 !important;
 }
 .footer-area  p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 .footer-area span{
 	font-size: 24px !important;
-	font-weight: 200 !important;	
+	font-weight: 400 !important;	
 }
 
 
@@ -10108,8 +10109,8 @@ body {
 	font-weight: 300 !important;
 }
 .pre-eng  p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  ABOUT PEB */
@@ -10122,8 +10123,9 @@ body {
 	font-weight: 300 !important;
 }
 .abt-peb p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	text-align: justify !important;
 }
 
 /*  PRIMARY FRAMMING */
@@ -10136,8 +10138,8 @@ body {
 	font-weight: 300 !important;
 }
 .pry-fra p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  SECONDARY FRAMMING */
@@ -10150,8 +10152,8 @@ body {
 	font-weight: 300 !important;
 }
 .sec-fra p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  STRUCTURED STEEL */
@@ -10164,8 +10166,8 @@ body {
 	font-weight: 300 !important;
 }
 .str-stel p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  SOLOR STRUCTURES */
@@ -10178,8 +10180,8 @@ body {
 	font-weight: 300 !important;
 }
 .solor p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  SEED DRYERS & CONVEYESR SYSTEM */
@@ -10192,8 +10194,8 @@ body {
 	font-weight: 300 !important;
 }
 .dryers-conveyers p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  BUILDING COMPONENTS */
@@ -10212,8 +10214,8 @@ body {
 	margin: 20px 0px;
 }
 .build-comp p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 	padding: 10px;
 }
 
@@ -10228,7 +10230,7 @@ body {
 }
 .civil p{
 	font-size: 16px !important;
-	font-weight: 200 !important;
+	font-weight: 400 !important;
 }
 
 /*  MANUFACTURING */
@@ -10245,8 +10247,8 @@ body {
 	font-weight: 400 !important;
 }
 .manufac p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  PROJECTS */
@@ -10260,8 +10262,8 @@ body {
 	color: var(--tg-primary-color);
 }
 .proj p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 
 /*  CONTACT US */
@@ -10280,6 +10282,6 @@ body {
 	color: var(--tg-primary-color);
 }
 .cnt_us p{
-	font-size: 14px !important;
-	font-weight: 200 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }

@@ -1371,7 +1371,7 @@
 	padding: 0 0 100px;
 }
 .services-area {
-	padding: 95px 0 70px;
+	padding: 45px 0 70px;
 }
 .project-bg {
 	padding: 95px 0 75px;
@@ -2325,3 +2325,106 @@
 }
 
 
+
+/* ================================ Services mobile response ============================== */
+
+@media screen and (min-width:320px) and (max-width:575px) {
+	.conveyor-title{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.adv-title{
+		margin-top: 30px;
+		margin-bottom: -20px;
+		text-align: center !important;
+	}
+	.split-line{
+		padding: 15px !important;
+		text-align: center !important;
+	}
+	.sub-font{
+		/* margin-top: 40px !important; */
+		/* margin-bottom: -20px; */
+		/* text-align: center !important; */
+	}
+	.adv{
+		padding: 15px !important;
+	}
+	.pre-title{
+		text-align: center !important;
+		margin: auto;
+		/* margin-top: 30px; */
+	}
+
+	.history-list{
+		padding: 15px !important;
+	}
+	.abt-peb .sub-font{
+		font-size: 18px;
+		font-weight: 500 !important;
+		margin-top: -30px !important;
+	}
+	.testimonial-content p {
+		margin-bottom: 20px;
+		padding: 15px;
+	}
+	.work-area .services-process-item .icon {
+		width: 90px;
+		height: 190px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 !important;
+		/* background: var(--tg-white); */
+		background: var(--tg-secondary-color);
+		font-size: 25px;
+		flex: 0 0 auto;
+		margin-right: 20px;
+	}
+
+	.work-area .services-process-item .content .title {
+		font-weight: 500;
+		font-size: 20px;
+		/* margin: 12px 0px; */
+		margin-top:20px;
+	}
+	.color-btn{
+		flex-wrap: wrap !important;
+	}
+
+	.color-sheet .color-btn {
+		width: 150px !important;
+		margin: 15px !important;
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		letter-spacing: 0 !important;
+		line-height: 0.5 !important;
+		padding: 20px 10px 28px 10px !important;
+	}
+
+	.color-btn {
+		/* width: 200px !important; */
+		height: 10px !important;
+		margin: 25px 10px;
+		user-select: none;
+		-moz-user-select: none;
+		color: var(--tg-white);
+		cursor: pointer;
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: 0.5;
+		padding: 40px 20px;
+		text-align: center;
+		white-space: nowrap;
+		border: 1px solid transparent;
+		border-radius: 50px;
+		box-shadow: 0px 20px 40px 0px #00000033;
+	}
+
+	.section-title .trim-title{
+		font-size:30px !important;
+	}
+
+}
