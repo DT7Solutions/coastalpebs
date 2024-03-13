@@ -1856,6 +1856,13 @@ label {
 	padding: 0px !important;
 	border: 0.3px solid #C8C8C8;
 }
+.brand-inner-items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
 
 /* brand-two */
 .brand-area-two {
@@ -2146,6 +2153,7 @@ label {
 	overflow: hidden;
 }
 .fetures-thumb-three img {
+	max-height: 400px !important;
 	min-height: 250px !important;
 	width: 100%;
 	transition: .3s linear;
@@ -2222,7 +2230,7 @@ label {
 	max-width: 500px;
 }
 .fetures-content-three .btn-2 {
-	margin: 10px 0px;
+	margin: 15px 0px;
 	padding: 15px 20px !important;
 }
 .features-item-wrap .title{
@@ -9007,7 +9015,8 @@ h2 {
 	background: #000 !important;
 }
 .card-container{
-	max-width: 360px !important;
+	max-width: 350px !important;
+	min-width: 350px !important;
 }
 .work-area .pre-eng-work::after {
     opacity: 0 !important;

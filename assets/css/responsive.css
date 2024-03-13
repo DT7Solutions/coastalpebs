@@ -440,7 +440,7 @@
 	font-size: 22px;
 }
 .project-item {
-	padding: 10px 35px;
+	padding: 5%!important;
 }
 .project-thumb {
 	right: 14%;
@@ -485,7 +485,8 @@
 	justify-content: center;
 }
 .footer-logo-area {
-	padding: 24px 30px;
+	padding: 5%;
+	margin: 2% 10%;
 }
 .footer-contact .icon {
 	width: 50px;
@@ -832,7 +833,7 @@
     max-width: 720px;
 }
 .menu-area {
-	padding: 22px 0;
+	padding: 2% 0%;
 }
 .menu-nav {
 	justify-content: space-between;
@@ -845,7 +846,43 @@
 }
 .menu-area .mobile-nav-toggler {
 	display: block;
+	margin: 2% 5%;
 }
+.transparent-header::after {
+    left: 0px;
+    right: 0px;
+}
+.about-content{
+	margin: 5%;
+}
+.brand-inner {
+	margin: 5% 10% !important;
+}
+.brand-inner-items>* {
+	max-width: 50%;
+}
+.counter-inner .row>* {
+    max-width: 50%;
+}
+.our-mision-vision-item {
+	margin: 5%;
+}
+.content-text{
+	padding: 0%;
+	margin: 5% !important;
+}
+.contact-info-wrap-top {
+	padding: 5% 2%;
+}
+.contact-info-wrap-top p{
+	margin: 5% !important;
+}
+#contact-map iframe {
+	padding: 1%;
+}
+.img-slid img {
+	padding: 5%;
+  }
 .banner-shape {
 	width: 30%;
 }
@@ -1137,11 +1174,18 @@
 	width: 70px;
 	height: 70px;
 	right: 5px;
-	top: -38px;
+	top: 0px;
+	margin: 0%;
+}
+.fetures-content-three p {
+	margin-bottom: 0%;
 }
 .fetures-content-three {
 	/* padding: 27px 0px 0; */
-	padding: 50px 30px 10px !important;
+	padding: 20px 20px 10px !important;
+}	
+.faq-wrap{
+	padding: 2%;
 }
 .services-thumb-three {
 	padding-left: 0;
@@ -1398,7 +1442,7 @@
 .footer-contact {
 	display: block;
 	text-align: center;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 .footer-contact .icon {
 	margin: 0 auto 15px;
