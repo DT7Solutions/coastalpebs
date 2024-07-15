@@ -3,6 +3,4 @@
 User-agent: *
 
 Disallow:
-Allow: /
-
 Sitemap:https://www.coastalpebs.com/sitemap.xml
